@@ -40,9 +40,9 @@ import java.util.Date;
 /**
  * Demonstrates empty OpMode
  */
-@TeleOp(name = "Concept: NullOp", group = "Concept")
-@Disabled
-public class ConceptNullOp extends OpMode {
+@TeleOp(name = "Robot")
+//@Disabled
+public class TestTeleOp extends OpMode {
 
   private ElapsedTime runtime = new ElapsedTime();
 
